@@ -18,8 +18,8 @@ import matplotlib.pyplot as plt
 warnings.filterwarnings("ignore")
 
 # Load the dataset
-train_data = pd.read_csv("/Users/shashi/Documents/poker+hand/poker-hand-training-true.data", header=None)
-test_data = pd.read_csv("/Users/shashi/Documents/poker+hand/poker-hand-testing.data", header=None)
+train_data = pd.read_csv("/Users/sravani/Documents/poker+hand/poker-hand-training-true.data", header=None)
+test_data = pd.read_csv("/Users/sravani/Documents/poker+hand/poker-hand-testing.data", header=None)
 
 # Rename columns
 columns = ['S1', 'C1', 'S2', 'C2', 'S3', 'C3', 'S4', 'C4', 'S5', 'C5', 'CLASS']
