@@ -21,7 +21,7 @@ To get a local copy up and running follow these simple steps.
 
 Clone the repo:
    ```bash
-   git clone https://github.com/yourusername/CMPE255-FinalProject-PokerHand.git
+   git clone https://github.com/shashisingarapu0607/CMPE255-FinalProject-PokerHand.git
   cd CMPE255-FinalProject-PokerHand
   pip install -r requirements.txt
   python KNN.py
