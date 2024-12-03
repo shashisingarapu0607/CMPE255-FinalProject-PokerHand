@@ -29,3 +29,8 @@ First, clone the repository to your local machine, then run the following comman
   python KNN.py
   python NaiveBayes.py
   python RandomForest.py
+
+After running these models, the predicted hands will be displayed.
+
+
+
