@@ -17,13 +17,15 @@ This project aims to classify poker hands using various machine learning algorit
 - *Pandas*: Data manipulation and analysis library.
 
 ## Getting Started
-To get a local copy up and running follow these simple steps.
+Follow these steps to set up the project on your local machine:
 
-Clone the repo:
+First, clone the repository to your local machine, then run the following commands:
    ```bash
    git clone https://github.com/shashisingarapu0607/CMPE255-FinalProject-PokerHand.git
   cd CMPE255-FinalProject-PokerHand
+
   pip install -r requirements.txt
+  Load the datset path as pd.read_csv(path)
   python KNN.py
   python NaiveBayes.py
   python RandomForest.py
